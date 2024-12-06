@@ -64,17 +64,29 @@ class Truck extends Vehicle implements AbleToTow {
   }
   override printDetails() {
     super.printDetails();
-    console.log(` The Vehicle:
-      VIN: ${this.vin}
-      make: ${this.make}
-      model: ${this.model}
-      year: ${this.year}
-      weight: ${this.weight}
-      top speed: ${this.topSpeed}
-      color: ${this.color}
-      towing capacity: ${this.towingCapacity}
-      wheels: ${this.wheels[0].getTireBrand, this.wheels[1].getTireBrand, this.wheels[2].getTireBrand, this.wheels[3].getTireBrand}` //???
-    );}
+    console.log(`VIN: ${this.vin}
+      Color: ${this.color}
+      Make: ${this.make}
+      Model: ${this.model}
+      Year: ${this.year}
+      Weight: ${this.weight} lbs
+      Top speed: ${this.topSpeed} mph
+      Towing capacity: ${this.towingCapacity} lbs`
+     );
+        // Print details of the wheels
+        console.log(
+          `Wheel 1: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire`
+        );
+        console.log(
+          `Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire`
+        );
+        console.log(
+          `Wheel 3: ${this.wheels[2].getDiameter} inch with a ${this.wheels[2].getTireBrand} tire`
+        );
+        console.log(
+          `Wheel 4: ${this.wheels[3].getDiameter} inch with a ${this.wheels[3].getTireBrand} tire`
+        );
+  }
 
 }
   // TODO: Override the printDetails method from the Vehicle class***
