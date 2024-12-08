@@ -15,11 +15,11 @@ This project is designed to simulate picking and customizing vehicles and then p
 
 - copy either all the files from the repository to your computer or use your git bash terminal to clone the repository down to your own machine. 
 - make sure you have [node js](https://nodejs.org/en) and the package manager that comes with it.
-- run the following command in project folder terminal: npm i###. This will download all the needed dependencies for the project
+- run the following command in project folder terminal: "npm i" (don't include the quotation marks). This will download all the needed dependencies for the project
 
 ## Usage
 
-- After installing the project run in the terminal for project: npm start. This will compile the type script files and start the project.
+- After installing the project run in the terminal for project: "npm start" (don't include the quotation marks). This will compile the type script files and start the project.
 - Your console will then ask you to create a new vehicle or select an existing one.
 - When you do select to create a new one it will ask you to answer several questions to create the vehicle
 - Once the vehicle is created it will automatically give you a list of actions to chose from to preform with the current vehicle.
@@ -27,7 +27,7 @@ This project is designed to simulate picking and customizing vehicles and then p
 - After picking a vehicle you will also be taken to a list of actions to preform with the selected vehicle.
 - In actions list there's also option to select or create another vehicle which will take you back to the beginning of the program again.
 - Finally when your done running the project just use the exit action in the action list to stop the program.
-- For a walkthrough of how to use the application [Click Here](https://drive.google.com/file/d/1bT8SY0dOUtcK0CNuMRFuQ0rvAM_cuNJt/view). ***
+- For a walkthrough of how to use the application [Click Here](https://drive.google.com/file/d/1n_fFAij4iwHXJKqrKKYaUtog7YK5fz25/view).
 
 ## Credits
 
