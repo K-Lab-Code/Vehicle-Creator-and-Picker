@@ -1,18 +1,10 @@
-
-# <Your-Project-Title>
+# Vehicle Builder
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This project is designed to simulate picking and customizing vehicles and then preforming actions with them. Some of the various actions that can be preformed are starting, stopping, accelerating, decelerating, turning. Some vehicles also have bonus actions they can preform such as towing with some trucks and wheelie's with motorbikes. The application is completely text based and doesn't have any graphics but is a good example of how to build a larger scale project in typescript with multiple classes and interfaces.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -21,48 +13,28 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+- copy either all the files from the repository to your computer or use your git bash terminal to clone the repository down to your own machine. 
+- make sure you have [node js](https://nodejs.org/en) and the package manager that comes with it.
+- run the following command in project folder terminal: npm i###. This will download all the needed dependencies for the project
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
-
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
+- After installing the project run in the terminal for project: npm start. This will compile the type script files and start the project.
+- Your console will then ask you to create a new vehicle or select an existing one.
+- When you do select to create a new one it will ask you to answer several questions to create the vehicle
+- Once the vehicle is created it will automatically give you a list of actions to chose from to preform with the current vehicle.
+- Selecting an existing vehicle instead will give you a list of vehicles to chose from. Once you scroll down to the one you want hit enter.
+- After picking a vehicle you will also be taken to a list of actions to preform with the selected vehicle.
+- In actions list there's also option to select or create another vehicle which will take you back to the beginning of the program again.
+- Finally when your done running the project just use the exit action in the action list to stop the program.
+- For a walkthrough of how to use the application [Click Here](https://drive.google.com/file/d/1bT8SY0dOUtcK0CNuMRFuQ0rvAM_cuNJt/view). ***
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Project Designer: Kalab Smith
+- [K-Lab-Code](https://github.com/K-Lab-Code)
+- [kalabsb@me.com](mailto:kalabsb@me.com)
 
 ## License
 
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
-
----
-
-🏆 The previous sections are the bare minimum, and your project will ultimately determine the content of this document. You might also want to consider adding the following sections.
-
-## Badges
-
-![badmath](https://img.shields.io/github/languages/top/lernantino/badmath)
-
-Badges aren't necessary, per se, but they demonstrate street cred. Badges let other developers know that you know what you're doing. Check out the badges hosted by [shields.io](https://shields.io/). You may not understand what they all represent now, but you will in time.
-
-## Features
-
-If your project has a lot of features, list them here.
-
-## How to Contribute
-
-If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
-
-## Tests
-
-Go the extra mile and write tests for your application. Then provide examples on how to run them here.
+Distributed under the MIT License. See LICENSE.txt for more information.
